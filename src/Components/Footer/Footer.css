@@ -1,0 +1,275 @@
+.Footer {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+  background-color: #000;
+}
+.footer-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-top: 30px;
+}
+.footerone-boxone {
+  height: 162px;
+}
+.footerone-boxtwo {
+  height: 162px;
+}
+.footerone-boxthree {
+  height: 162px;
+}
+/* .footerone-boxfour{
+    height: 261px;
+} */
+
+.footerone-text {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-right: 40px;
+  line-height: 40px;
+}
+.footerone-textboxfour {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-right: 40px;
+  line-height: 40px;
+  position: relative;
+  margin-left: 39px;
+}
+.footerone-boxfour{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerone-addresstext {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  /* line-height: 30.9px; */
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 10px;
+}
+
+.footer-two {
+    width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.evergreen-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  /* line-height: 24.72px; */
+  text-align: left;
+  color: #fff;
+ 
+}
+.footer-btn{
+    display: flex;
+    margin-top: 0;
+    flex-direction: row;
+}
+.address{
+    padding-left: 40px;
+}
+.email-input{
+    width: 200px;
+    margin-top: 0px;
+}
+.span-btn{
+    width: 123px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(48, 107, 52, 1);
+}
+a{
+font-family: Roboto;
+font-size: 15.76px;
+font-weight: 700;
+line-height: 12.61px;
+text-align: left;
+color: #fff;
+}
+
+
+.secondbox-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 20px;
+}
+
+
+.evergreen-box{
+    position: relative;
+    right: 247px;
+}
+.media-icons img{
+    margin-right: 10px;
+}
+@media (max-width:1030px){
+    .footerone-text{
+        font-size: 15px;
+    }
+    .footertwo-boxtwo{
+        right: 172px;
+    }
+}
+@media (max-width:940px){
+    .footerone-text{
+        font-size: 13px;
+    }
+    .footerone-textboxfou{
+        font-size: 13px;
+    }
+    .footerone-addresstext{
+        font-size: 17px;
+    }
+    .footertwo-boxtwo {
+        right: 155px;
+    }
+}
+
+@media (max-width:868px){
+    .footertwo-boxtwo {
+        right: 116px;
+    }
+}
+
+@media(max-width:830px){
+    .footerone-text {
+        font-size: 8px;
+    }
+    .footerone-textboxfour{
+        font-size: 14px;
+    }
+    .footertwo-boxtwo {
+        right: 152px;
+    }
+    .footerone-addresstext {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:790px){
+    .footerone-text {
+        font-size: 7px;
+    }
+    .footerone-addresstext {
+        font-size: 10px;
+    }
+
+}
+@media (max-width:747px){
+    .footerone-textboxfour {
+        font-size: 14px;
+        position: relative;
+        top: 0px;
+    }
+    .footertwo-boxtwo {
+        right: 78px;
+    }
+    .footerone-textboxfour {
+        font-size: 14px;
+        top: -3px;
+    }
+    .evergreen-box {
+        position: relative;
+        right: 172px;
+    }
+    .media-icons{
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:730px){
+    a {
+        font-size: 13px;
+    }
+    .footerone-textboxfour{
+        font-size: 13px;
+    }
+    .footerone-text{
+        font-size: 9px;
+    }
+    .span-btn{
+        width: 87px;
+    }
+    .email-input{
+        width: 167px;
+    }
+    .evergreen-text    {
+        font-size: 14px;
+    }
+    .evergreen-box {
+        position: relative;
+        right: 112px;
+    }
+    .media-icons{
+        margin-right: 10px;
+    }
+    .evergreen-box {
+        position: relative;
+        right: 93px;
+       
+    }
+
+
+
+
+}
+
+
+@media (max-width:690px){
+    .footer-one {
+        flex-direction: column;
+        width: 100%;
+    }
+    .footerone-boxone {
+        width: 100%;
+     
+    }
+    .footerone-boxtwo{
+        width: 100%;
+      
+    }
+    .footerone-boxthree{
+        width: 100%;
+       
+    }
+    .footerone-boxfour{
+        width: 100%;
+       
+    }
+    .footerone-textboxfour {
+        font-size: 13px;
+        margin-left: 0;
+    }
+    .email-input {
+        width: 167px;
+        margin-left: 0;
+    }
+    .address{
+        padding-left: 0px;
+    }
+   
+}
